@@ -19,7 +19,8 @@ body {
     width: 13%;
     min-width: 80px;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 100%;
 }
 
@@ -73,6 +74,11 @@ body {
     font-size: 15px;
 }
 
+.home-content button:hover {
+    cursor: pointer;
+    background-color: hsla(224, 93%, 58%, 0.589);
+}
+
 .home-img {
     width: 45%;
     min-width: 310px;
@@ -84,7 +90,7 @@ body {
 
 /******************************* con-2*******************************/
 
-.cav{
+.cav {
     margin-top: 150px;
     width: 100%;
     height: 80px;
@@ -93,7 +99,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.container-2{
+.container-2 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -105,67 +111,79 @@ body {
 
 }
 
-.con2-content{
+.con2-content {
     margin-top: 10px;
     width: 45%;
 }
 
-.con2-content #f-p{
+.con2-content #f-p {
     margin-top: 35px;
 }
-.con2-content #f-s{
+
+.con2-content #f-s {
     color: hsl(170, 45%, 43%);
     margin: 0px;
-    
+
 }
-.con2-content .line{
+.con2-content #f-s:hover{
+    cursor: pointer;
+}
+
+.con2-content .line {
     width: 170px;
     height: 1px;
     margin-top: 0px;
     margin-bottom: 50px;
-    background-color:  hsl(170, 45%, 43%);
+    background-color: hsl(170, 45%, 43%);
 }
-.con2-card{
+
+.con2-card {
     width: 50%;
     background-color: white;
-    box-shadow: 0px 0px  30px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.24);
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 100px;
     font-size: 13px;
     min-width: 300px;
 }
-.con2-card .con2-user{
+
+.con2-card .con2-user {
     display: flex;
     margin-top: 10px;
     align-items: center;
 }
-.con2-card .con2-user img{
+
+.con2-card .con2-user img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
 }
-.con2-card .con2-user-info p{
+
+.con2-card .con2-user-info p {
     margin: 0px 10px;
     font-size: 10px;
 }
-.con2-card .con2-user-info h5{
-    margin:  0px 10px;
+
+.con2-card .con2-user-info h5 {
+    margin: 0px 10px;
 }
-.con2-img{
+
+.con2-img {
     margin-top: 10px;
     width: 40%;
     min-width: 315px;
 }
-.con2-img img{
+
+.con2-img img {
     width: 100%;
 }
 
 
 /******************************* container-3*******************************/
 
-.container-3{
+.container-3 {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -178,74 +196,99 @@ body {
     gap: 35px;
 
 }
-.con3-part-1{
+
+.con3-part-1 {
     width: 35%;
     min-width: 310px;
 }
-.con3-part-2{
+
+.con3-part-2 {
     width: 40%;
     min-width: 310px;
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-.con3-part-2 input{
+
+.con3-part-2 input {
     width: 85%;
     min-width: 310px;
     padding: 2.5% 0%;
     border: none;
     border-radius: 3px;
 }
-.con3-part-2 label{
+
+.con3-part-2 label {
     position: relative;
     top: -23px;
     font-size: 10px;
     left: 14px;
     color: rgba(0, 0, 0, 0.247);
 }
-.con3-part-2 button{
+
+.con3-part-2 button {
     width: 45%;
     min-width: 200px;
     border: none;
     color: white;
-    background-color:  hsl(224, 93%, 58%);
+    background-color: hsl(224, 93%, 58%);
     padding: 13px 10px;
+}
+
+.con3-part-2 button:hover{
+    cursor: pointer;
+    background-color: hsla(224, 93%, 58%, 0.651);
 }
 
 /******************************* container-4*******************************/
 
-.container-4{
+.container-4 {
     width: 100%;
-    background-color:hsl(243, 87%, 12%);
+    background-color: hsl(243, 87%, 12%);
     color: white;
     padding: 6% 0%;
-   
+
 }
-.container-4 .con-cover-4{
+
+.container-4 .con-cover-4 {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.con4-part-1{
+
+.con4-part-1 {
     width: 30%;
     min-width: 200px;
 }
-.con4-part-2{ 
+
+.con4-part-2 {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
-.con4-part2-conts{
+
+.con4-part2-conts {
     min-width: 80px;
 }
-.con4-part-2 i{
+
+.con4-part-2 i {
     margin-top: 16px;
     border: 1px solid white;
     border-radius: 50%;
     padding: 5px;
+}
+
+.con4-part-2 i:hover{
+    cursor: pointer;
+    color:  hsl(224, 93%, 58%) ;
+}
+
+.con4-part2-conts p:hover{
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
 }
 
 
@@ -260,22 +303,26 @@ body {
     .home-container {
         text-align: center;
     }
-    .home-container input{
+
+    .home-container input {
         width: 90%;
     }
-    .home-container #input-lable{
+
+    .home-container #input-lable {
         top: -80px;
     }
-    .home-container button{
+
+    .home-container button {
         margin-top: 10px;
         width: 90%;
     }
 
 
-    .cav{
+    .cav {
         background-image: url(./images/bg-curve-mobile.svg);
     }
-    .con2-content{
+
+    .con2-content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -283,30 +330,35 @@ body {
         min-width: 300px;
 
     }
-    .con2-content .con2-card{
+
+    .con2-content .con2-card {
         min-width: 250px;
     }
-    .container-3{
+
+    .container-3 {
         text-align: center;
         padding: 10% 0%;
     }
-    .container-3 .con3-part-2 button,input{
+
+    .container-3 .con3-part-2 button,
+    input {
         width: 99%;
     }
-    .con4-part-2{
+
+    .con4-part-2 {
         text-align: center;
         justify-content: center;
     }
 }
 
-@media screen and (max-width:425px){
-       /* .home-content{
+@media screen and (max-width:425px) {
+    /* .home-content{
             min-width: 321px;
        } */
 
-       .cav{
+    .cav {
         background-size: contain;
         margin-bottom: -22px;
-       }
-
     }
+
+}
